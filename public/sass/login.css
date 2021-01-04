@@ -1,0 +1,83 @@
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 55px;
+}
+
+body .card .card-header {
+  text-align: center;
+  background-color: initial;
+  border-bottom: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+body .card form {
+  height: 50%;
+}
+
+body .card form .form-control {
+  border-radius: 0.5rem;
+}
+
+body .card form .btn-primary {
+  background-color: black;
+  border-color: black;
+  width: 100px;
+}
+
+body .card form .btn-primary:focus,
+body .card form .btn-primary:active,
+body .card form .btn:focus,
+body .card form .btn:active {
+  outline: none !important;
+  background-color: white !important;
+  border-color: white !important;
+  color: black !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(160, 170, 179, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(160, 170, 179, 0.5) !important;
+}
+
+body .card .translate {
+  background-color: #696969;
+  border-color: #696969;
+  -webkit-box-shadow: 0px 2px 12px 0.2rem #69696980;
+          box-shadow: 0px 2px 12px 0.2rem #69696980;
+}
+
+body .card .translate:hover,
+body .card .translate:focus,
+body .card .translate:active {
+  background-color: #bebebe;
+  border-color: #bebebe;
+  color: #696969;
+}
+/*# sourceMappingURL=login.css.map */

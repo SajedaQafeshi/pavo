@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+html,
+body,
+.root {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+html header,
+body header,
+.root header {
+  width: 90%;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+html header .user,
+body header .user,
+.root header .user {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html nav,
+body nav,
+.root nav {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html nav .item,
+body nav .item,
+.root nav .item {
+  border: 3px solid #3bad35;
+  padding: 10px;
+  width: 10%;
+  border-radius: 22px;
+  text-align: center;
+}
+
+html nav .item a,
+body nav .item a,
+.root nav .item a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+html .main-ads,
+body .main-ads,
+.root .main-ads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60%;
+  margin-top: 20px;
+  position: relative;
+}
+
+html .main-ads .container,
+body .main-ads .container,
+.root .main-ads .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: auto;
+  bottom: auto;
+}
+
+html .content-body,
+body .content-body,
+.root .content-body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .content-body .content-right,
+body .content-body .content-right,
+.root .content-body .content-right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .content-body .content-right .category,
+body .content-body .content-right .category,
+.root .content-body .content-right .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html .content-body .content-right .category article img,
+body .content-body .content-right .category article img,
+.root .content-body .content-right .category article img {
+  border-radius: 50%;
+  -webkit-box-shadow: -6px 8px 8px #95a5a6;
+          box-shadow: -6px 8px 8px #95a5a6;
+}
+
+html .content-body .content-right .category article h2,
+body .content-body .content-right .category article h2,
+.root .content-body .content-right .category article h2 {
+  text-align: center;
+  font-family: "Amiri";
+}
+
+html .content-body .content-left,
+body .content-body .content-left,
+.root .content-body .content-left {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */
